@@ -51,6 +51,12 @@
       "linter": "eslint",
       "style": "scss",
       "unitTestRunner": "jest"
+    },
+    "@nx/angular:component": {
+      "style": "css",
+      "standalone": true,
+      "inlineStyle": true,
+      "inlineTemplate": true
     }
   }
 }
