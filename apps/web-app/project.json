@@ -2,7 +2,7 @@
   "name": "web-app",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "serodev",
+  "prefix": "web",
   "sourceRoot": "apps/web-app/src",
   "tags": [],
   "targets": {
@@ -17,7 +17,10 @@
         "tsConfig": "apps/web-app/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": ["apps/web-app/src/favicon.ico", "apps/web-app/src/assets"],
-        "styles": ["apps/web-app/src/styles.scss"],
+        "styles": [
+          "node_modules/boxicons/css/boxicons.min.css",
+          "apps/web-app/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
