@@ -9,6 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        page: 'calc(100vh - 2.5rem)',
+        nav: '2.5rem',
+      },
       colors: {
         red: {
           50: '#F5F5F5',

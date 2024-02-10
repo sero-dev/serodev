@@ -9,9 +9,9 @@ import { BoxIconComponent } from '../util/boxicon.component';
   standalone: true,
   template: `
     <div
-      class="max-h-screen min-h-screen w-64 flex flex-col gap-10 bg-stone-100 py-4 px-2 overflow-y-auto">
+      class="max-h-screen min-h-screen w-64 flex flex-col gap-10 bg-white shadow-md py-4 px-2 overflow-y-auto">
       <a class="mb-10 px-2" routerLink="/">
-        <h1 class="text-xl font-bold mb-2">Home Life</h1>
+        <h1 class="text-xl font-bold mb-2">Dashboard</h1>
         <p class="text-sm text-stone-500">
           Imagination… What we can easily see is only a small percentage of what
           is possible.
